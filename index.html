@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kella Teja — Full Stack Developer</title>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Serif+Display:ital@0;1&family=JetBrains+Mono:wght@300;400;700&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="portfolio.css">
+<script src="portfolio.js" defer></script>
+</head>
+<body>
+<div class="cursor" id="cursor"></div>
+<div class="cursor-ring" id="cursorRing"></div>
+<div class="scroll-indicator" id="scrollBar"></div>
+
+<!-- Nav Dots -->
+<div class="nav-dots" id="navDots">
+  <div class="nav-dot active" data-section="hero" onclick="scrollTo('hero')"></div>
+  <div class="nav-dot" data-section="about" onclick="scrollTo('about')"></div>
+  <div class="nav-dot" data-section="skills" onclick="scrollTo('skills')"></div>
+  <div class="nav-dot" data-section="experience" onclick="scrollTo('experience')"></div>
+  <div class="nav-dot" data-section="education" onclick="scrollTo('education')"></div>
+  <div class="nav-dot" data-section="certifications" onclick="scrollTo('certifications')"></div>
+  <div class="nav-dot" data-section="contact" onclick="scrollTo('contact')"></div>
+</div>
+
+<!-- NAVBAR -->
+<nav>
+  <a href="#hero" class="nav-logo">KT</a>
+  <ul class="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#experience">Experience</a></li>
+    <li><a href="#education">Education</a></li>
+    <li><a href="#certifications">Certs</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="hero-grid-bg"></div>
+  <div class="hero-orb hero-orb-1"></div>
+  <div class="hero-orb hero-orb-2"></div>
+  <div class="hero-content">
+    <div class="hero-badge">Available for opportunities · Andhra Pradesh, India</div>
+    <h1 class="hero-name">Kella<br><span>Teja</span></h1>
+    <p class="hero-role">Full Stack Developer &amp; Aspiring Software Engineer<span class="type-cursor"></span></p>
+    <p class="hero-desc">
+      Building modern, scalable web experiences with Python, JavaScript, and a passion for AI-driven products. Currently pursuing B.Tech in Computer Science at Raghu Engineering College.
+    </p>
+    <div class="hero-cta">
+      <a href="#experience" class="btn-primary">↓ View My Work</a>
+      <a href="#contact" class="btn-outline">Get In Touch →</a>
+    </div>
+    <div class="hero-stats">
+      <div>
+        <div class="stat-num">7</div>
+        <div class="stat-label">Months Industry<br>Experience</div>
+      </div>
+      <div>
+        <div class="stat-num">A+</div>
+        <div class="stat-label">Internship<br>Grade</div>
+      </div>
+      <div>
+        <div class="stat-num">5</div>
+        <div class="stat-label">Certifications<br>Earned</div>
+      </div>
+      <div>
+        <div class="stat-num">3+</div>
+        <div class="stat-label">Languages<br>Mastered</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <p class="section-label">01 — About Me</p>
+  <h2 class="section-title">Who I <em>Am</em></h2>
+  <div class="about-grid">
+    <div class="about-text">
+      <p>I'm <strong>Kella Teja</strong>, a passionate Computer Science student and Full Stack Developer based in Andhra Pradesh, India. I'm currently pursuing my B.Tech at Raghu Engineering College, with a solid foundation built through my diploma in Computer Engineering at Swarnandhra College of Engineering & Technology.</p>
+      <div class="about-highlight">
+        "I don't just write code — I craft solutions that bridge the gap between technology and real-world problems."
+      </div>
+      <p>My hands-on industry experience at <strong>Manogna Software Solutions</strong> shaped me into a developer who thrives in full-stack environments — from designing clean frontends to architecting robust backends.</p>
+      <p>I'm deeply passionate about <strong>Artificial Intelligence</strong> and how it can transform the web, and I'm actively expanding my knowledge in that space through dedicated certifications and self-study.</p>
+    </div>
+    <div class="about-cards">
+      <div class="about-card reveal">
+        <div class="card-icon">⚡</div>
+        <div class="card-title">Full Stack Development</div>
+        <div class="card-text">End-to-end web development expertise — Python backends, modern frontends, and seamless database integration.</div>
+      </div>
+      <div class="about-card reveal">
+        <div class="card-icon">🤖</div>
+        <div class="card-title">AI Enthusiast</div>
+        <div class="card-text">Exploring machine learning, AI applications, and how intelligent systems can be woven into everyday software.</div>
+      </div>
+      <div class="about-card reveal">
+        <div class="card-icon">🎯</div>
+        <div class="card-title">Problem Solver</div>
+        <div class="card-text">Analytical thinker with a knack for breaking down complex challenges into clean, elegant technical solutions.</div>
+      </div>
+      <div class="about-card reveal">
+        <div class="card-icon">📈</div>
+        <div class="card-title">Continuous Learner</div>
+        <div class="card-text">Always upskilling — certifications in Python, SQL, JavaScript, and AI reflect a growth mindset in action.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+  <p class="section-label">02 — Technical Arsenal</p>
+  <h2 class="section-title">What I <em>Build With</em></h2>
+  <div class="skills-grid">
+    <div class="skill-group reveal">
+      <div class="skill-group-title">Languages</div>
+      <span class="skill-tag">Python</span>
+      <span class="skill-tag">JavaScript</span>
+      <span class="skill-tag">Java</span>
+      <span class="skill-tag">C++</span>
+      <span class="skill-tag">SQL</span>
+    </div>
+    <div class="skill-group reveal">
+      <div class="skill-group-title">Frontend</div>
+      <span class="skill-tag purple">HTML5</span>
+      <span class="skill-tag purple">CSS3</span>
+      <span class="skill-tag purple">JavaScript ES6+</span>
+      <span class="skill-tag purple">Responsive Design</span>
+    </div>
+    <div class="skill-group reveal">
+      <div class="skill-group-title">Backend</div>
+      <span class="skill-tag">Python</span>
+      <span class="skill-tag">Web Development</span>
+      <span class="skill-tag">REST APIs</span>
+      <span class="skill-tag">Database Management</span>
+    </div>
+    <div class="skill-group reveal">
+      <div class="skill-group-title">Data & AI</div>
+      <span class="skill-tag amber">DBMS</span>
+      <span class="skill-tag amber">SQL (Advanced)</span>
+      <span class="skill-tag amber">Artificial Intelligence</span>
+      <span class="skill-tag amber">Data Analysis</span>
+    </div>
+    <div class="skill-group reveal">
+      <div class="skill-group-title">Soft Skills</div>
+      <span class="skill-tag">Team Collaboration</span>
+      <span class="skill-tag">Problem Solving</span>
+      <span class="skill-tag">Agile Workflow</span>
+      <span class="skill-tag">Communication</span>
+    </div>
+    <div class="skill-group reveal">
+      <div class="skill-group-title">Currently Exploring</div>
+      <span class="skill-tag amber">Machine Learning</span>
+      <span class="skill-tag amber">Full Stack AI Apps</span>
+      <span class="skill-tag amber">Cloud Deployment</span>
+    </div>
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience">
+  <p class="section-label">03 — Experience</p>
+  <h2 class="section-title">Where I've <em>Worked</em></h2>
+  <div class="timeline">
+    <div class="timeline-item reveal">
+      <div class="timeline-dot"></div>
+      <div class="timeline-date">November 2024 — May 2025 · 7 Months</div>
+      <div class="timeline-role">Python Full Stack Developer</div>
+      <div class="timeline-company">Manogna Software Solutions Pvt Ltd · <span>Bhimavaram, Andhra Pradesh</span></div>
+      <div class="timeline-body">
+        <p>Completed a rigorous 6-month Industrial Training Internship, gaining deep practical exposure to the complete software development lifecycle. Worked on real-time project development, integrating Python-powered backends with dynamic frontends.</p>
+        <br>
+        <p>Key areas of contribution included: frontend and backend web development, database design and management, and active participation in product delivery cycles. Demonstrated consistent excellence and initiative throughout the program.</p>
+        <div class="timeline-badge">🏆 A+ Grade — Outstanding Performance</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- EDUCATION -->
+<section id="education">
+  <p class="section-label">04 — Education</p>
+  <h2 class="section-title">My Academic <em>Path</em></h2>
+  <div class="edu-grid">
+    <div class="edu-card reveal">
+      <div class="edu-icon">🎓</div>
+      <div class="edu-degree">Bachelor of Technology</div>
+      <a href="https://www.raghuenggcollege.com/" target="_blank" rel="noopener noreferrer">
+      <div class="edu-school">Computer Science &amp; Engineering<br>Raghu Engineering College</div>
+      </a>
+      <div class="edu-period">▶ July 2025 — May 2028</div>
+      <span class="edu-status">📍 Currently Enrolled</span>
+      
+    </div>
+    <div class="edu-card reveal">
+      <div class="edu-icon">📐</div>
+      <div class="edu-degree">Diploma in Computer Engineering</div>
+      <a href="https://www.swarnandhra.ac.in/" target="_blank" rel="noopener noreferrer">
+      <div class="edu-school">Swarnandhra College of Engineering &amp; Technology<br>Narasapur, PIN 534281</div>
+      </a>
+      <div class="edu-period">✔ August 2022 — May 2025</div>
+      <span class="edu-status" style="background:rgba(0,229,255,0.07);border-color:rgba(0,229,255,0.25);color:var(--accent)">✅ Completed</span> 
+    </div>
+  </div>
+</section>
+
+<!-- CERTIFICATIONS -->
+<section id="certifications">
+  <p class="section-label">05 — Certifications</p>
+  <h2 class="section-title">Proof of <em>Mastery</em></h2>
+  <div class="certs-grid">
+    <div class="cert-card reveal">
+      <div class="cert-num">01</div>
+      <div class="cert-issuer">HackerRank</div>
+      <div class="cert-check">✦</div>
+      <a href="https://www.hackerrank.com/certificates/db795b849dd6" target="_blank" rel="noopener noreferrer"><div class="cert-name">Python (Basic) Certificate</div></a>
+    </div>
+    <div class="cert-card reveal">
+      <div class="cert-num">02</div>
+      <div class="cert-issuer">HackerRank</div>
+      <div class="cert-check">✦</div>
+      <a href="https://www.hackerrank.com/certificates/d1466bf0d5a6" target="_blank" rel="noopener noreferrer"><div class="cert-name">SQL (Advanced) Certificate</div></a>
+    </div>
+    <div class="cert-card reveal">
+      <div class="cert-num">03</div>
+      <div class="cert-issuer">Coursera / Meta</div>
+      <div class="cert-check">✦</div>
+      <a href="https://www.coursera.org/account/accomplishments/verify/1P51AVML272D?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course" target="_blank" rel="noopener noreferrer"><div class="cert-name">Programming with JavaScript</div></a>
+    </div>
+    <div class="cert-card reveal">
+      <div class="cert-num">04</div>
+      <div class="cert-issuer">Coursera / Meta</div>
+      <div class="cert-check">✦</div>
+      <a href="https://www.coursera.org/account/accomplishments/verify/NOXPEWXK3BO1" target="_blank" rel="noopener noreferrer"><div class="cert-name">Introduction to Front End Development</div></a>
+    </div>
+    <div class="cert-card reveal">
+      <div class="cert-num">05</div>
+      <div class="cert-issuer">IBM</div>
+      <div class="cert-check">✦</div>
+      <a href="https://www.credly.com/badges/84be5cae-0464-4139-bcca-ffede9e9fcea" target="_blank" rel="noopener noreferrer"><div class="cert-name">Getting Started with Artificial Intelligence</div></a>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <p class="section-label">06 — Contact</p>
+  <h2 class="section-title">Let's <em>Connect</em></h2>
+  <div class="contact-grid">
+    <div>
+      <p class="contact-big">Ready to build<br>something <span>great</span><br>together?</p>
+      <p class="contact-sub">Whether you're looking for a dedicated full-stack developer, an AI-curious engineer, or simply want to connect — my inbox is always open.</p>
+      <a href="mailto:kellateja111@gmail.com" class="btn-primary" style="width:fit-content">Send a Message →</a>
+    </div>
+    <div class="contact-info">
+      <a href="mailto:kellateja111@gmail.com" class="contact-item">
+        <span class="contact-item-icon">✉</span>
+        <div>
+          <span class="contact-item-label">Email</span>
+          <span class="contact-item-value">kellateja111@gmail.com</span>
+        </div>
+      </a>
+      <a href="tel:8790021955" class="contact-item">
+        <span class="contact-item-icon">📱</span>
+        <div>
+          <span class="contact-item-label">Phone</span>
+          <span class="contact-item-value">+91 87900 21955</span>
+        </div>
+      </a>
+      <a href="https://www.linkedin.com/in/kellateja-59537730b" target="_blank" class="contact-item">
+        <span class="contact-item-icon">💼</span>
+        <div>
+          <span class="contact-item-label">LinkedIn</span>
+          <span class="contact-item-value">linkedin.com/in/kellateja-59537730b</span>
+        </div>
+      </a>
+      <div class="contact-item">
+        <span class="contact-item-icon">📍</span>
+        <div>
+          <span class="contact-item-label">Location</span>
+          <span class="contact-item-value">Mogalthur, West Godavari, Andhra Pradesh — 534281</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-logo">KT</div>
+  <p class="footer-text">Crafted with <span>♥</span> by Kella Teja · 2026</p>
+  <p class="footer-text">Full Stack Developer · AI Enthusiast · <span>Open to Work</span></p>
+</footer>
+</body>
+</html>
